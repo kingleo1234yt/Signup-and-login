@@ -1,0 +1,36 @@
+html, body {
+  height: 100%; /* Make both elements take full height */
+  margin: 0;
+}
+
+body {
+  font-size: 15pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background: linear-gradient(to left, #1d20cf, #18cc39, #0362fc);
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  justify-content: center; /* Centers items along the main axis (vertical) */
+  align-items: center; /* Centers items along the cross axis (horizontal) */
+  
+  border-radius:50px;
+  
+}
+
+
+.my-input{
+  height:40px;
+  width:300px;
+  border-radius:40px;
+}
+
+
+
+
+
